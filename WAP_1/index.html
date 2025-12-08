@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"> <!--External CSS-->
+    
     <style> /*Internal CSS*/
         footer{
             display: flex;
@@ -116,11 +118,28 @@
         </section>
 
         <section>
+            <h1>Bootstrap</h1>
+            <div class="mb-3 w-75">
+            <label for="exampleFormControlInput1" class="form-label fs-4 fw-bold">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style = "height: 3rem; border: 1px solid rgb(122, 121, 121)">
+            </div>
+            <div class="mb-3 w-75">
+            <label for="exampleFormControlTextarea1" class="form-label fs-4 fst-italic">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" style = "border: 1px solid rgb(122, 121, 121)"></textarea>
+            </div>
+        </section>
+
+        <section>
+            <h1>Multimedia</h1>
+            <article>
+             <img src="./assets/sample_img.jpg" id="preview" width="500px">
+             <video src="./assets/sample_vid.mp4" id="vid" controls width="500px muted"></video>
+            </article>
         </section>
     </main>
 
-    <footer>
-        
+    <footer style="display:flex; justify-content: center; align-items: center;">
+        <h2>COPYRIGHT HCE080BCT011</h2>
     </footer>
 </body>
 </html>
